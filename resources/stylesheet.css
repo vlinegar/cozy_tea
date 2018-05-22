@@ -1,9 +1,8 @@
 body {
   background-color: black;
+  opacity: 0.9;
+  font-family: Helvetica sans-serif;
+  color: seashell;
+  font-size: 22px;
+  text-align: center;
   }
-h1 {
-  color: white;
-}
-p {
-  color: white;
-}
