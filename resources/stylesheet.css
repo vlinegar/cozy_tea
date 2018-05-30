@@ -24,7 +24,37 @@ header nav {
   flex-grow: 1;
   text-align: right;
   padding: 20px;
+  font-family: Helvetica sans-serif;
+  color: seashell;
+  font-size: 22px;
 }
 .mission {
   padding-top: 70px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  width: 1200px;
+  height: 700px;
+  margin: 0 auto;
+}
+.mission .content {
+  background-color: black;
+  position: relative;
+  top: 250px;
+  text-align: vertical center;
+  width: auto;
+  padding: .25px;
+}
+.tea {
+  width: 1000px;
+  margin: 0 auto;
+}
+.options img {
+  display: inline-flex;
+  flex-direction: row;
+  height: 200px;
+  width: 300px;
+}
+.locations {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  width: auto;
+  height: 500px;
 }
