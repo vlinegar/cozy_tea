@@ -45,7 +45,6 @@ nav span {
   top: 250px;
   text-align: vertical center;
   width: auto;
-  padding: .15px;
 }
 .tea {
   width: 1000px;
@@ -69,17 +68,23 @@ nav span {
 .locations {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
   width: 1200px;
-  height: 500px;
+  height: 550px;
   margin: 0 auto;
+  padding-top: 15px;
 }
 .address {
   display: inline-block;
   background-color: black;
   width: 300px;
-  padding-top: 15px;
-  padding-right: 40px;
+  margin: 0 15px;
+  opacity: 1;
+}
+.address p {
+  padding: 15px;
+}
+footer {
+  height: 200px;
 }
 .copyright {
   text-align: left;
-
 }
