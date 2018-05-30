@@ -45,16 +45,29 @@ header nav {
 }
 .tea {
   width: 1000px;
-  margin: 0 auto;
+  display: inline-block;
+  text-align: center;
+}
+.options {
+  width: 20%;
+  display: block;
+  margin: 0 10px;
 }
 .options img {
-  display: inline-flex;
-  flex-direction: row;
+  display: block;
   height: 200px;
   width: 300px;
 }
+.options p {
+  width: 1000px;
+  padding-top: 10px;
+}
 .locations {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
-  width: auto;
+  width: 1200px;
   height: 500px;
+  margin: 0 auto;
+}
+.address {
+  display: inline-block;
 }
