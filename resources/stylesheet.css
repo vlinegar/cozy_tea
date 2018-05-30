@@ -43,8 +43,8 @@ nav span {
   background-color: black;
   position: relative;
   top: 250px;
-  text-align: vertical center;
   width: auto;
+  padding: .1px;
 }
 .tea {
   width: 1000px;
@@ -52,8 +52,7 @@ nav span {
   text-align: center;
 }
 .options {
-  width: 20%;
-  display: block;
+  display: inline-block;
   margin: 0 10px;
 }
 .options img {
@@ -61,16 +60,12 @@ nav span {
   height: 200px;
   width: 300px;
 }
-.options p {
-  width: 1000px;
-  padding-top: 10px;
-}
 .locations {
   background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
   width: 1200px;
-  height: 550px;
+  height: 500px;
   margin: 0 auto;
-  padding-top: 15px;
+  padding-top: 60px;
 }
 .address {
   display: inline-block;
@@ -80,7 +75,7 @@ nav span {
   opacity: 1;
 }
 .address p {
-  padding: 15px;
+  padding: 10px;
 }
 footer {
   height: 200px;
