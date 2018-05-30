@@ -24,9 +24,13 @@ header nav {
   flex-grow: 1;
   text-align: right;
   padding: 20px;
-  font-family: Helvetica sans-serif;
+}
+nav span {
+  font-family: Helvetica, sans-serif;
   color: seashell;
   font-size: 22px;
+  text-decoration: underline;
+  padding-left: 20px;
 }
 .mission {
   padding-top: 70px;
